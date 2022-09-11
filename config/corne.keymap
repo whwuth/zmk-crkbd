@@ -59,10 +59,10 @@
 
         Layer__3 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LA(EXCL)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans    &kp LA(N1)  &kp N2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
